@@ -18,7 +18,7 @@ Git的使用：
             touch .gitignore
             echo ".idea/" >> .gitignore
             echo "out/" >> .gitignore
-            echo ".iml" >> .gitignore
+            echo "*.iml" >> .gitignore
 
         3.2.在本地修改后的文件再提交到本地仓库：
             git commit -am "second commit"
@@ -34,3 +34,10 @@ Git的使用：
 
         在远程仓库修改后的文件，拉取到本地：
         git pull -v --progress origin
+
+    6.清楚缓存区中的所有文件
+        git rm -r --cached .
+
+    7.idea中可以进行git版本控制
+        7.1.在settings中绑定git
+        7.2.在VCS工具中Import into Version Control中提交到本地仓库，在push到远程仓库
