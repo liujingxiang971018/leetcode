@@ -6,8 +6,12 @@ Git的使用：
     3.将本地工程加入本地仓库中，并设置本次提交及其注释
         git add .   （.表示所有文件）
         git commit -m "first commit"
+		
+		当修改后的文件再提交：
+			
     4.将本地仓库中的文件push到远程仓库中：先连接，然后推送到指定分支上（ 默认master分支）
         git remote add origin git@github.com:liujingxiang971018/leetcode.git
+		
         git branch -M main
         git push -u origin main
 	
