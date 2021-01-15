@@ -10,3 +10,6 @@ Git的使用：
         git remote add origin git@github.com:liujingxiang971018/leetcode.git
         git branch -M main
         git push -u origin main
+	
+	5.从远程仓库克隆到本地仓库
+        git clone git@github.com:liujingxiang971018/leetcode.git
